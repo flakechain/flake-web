@@ -1,0 +1,42 @@
+{
+  "name": "flake-web",
+  "version": "0.0.1",
+  "description": "FlakeChain Thin Wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flakechain/flake-web.git"
+  },
+  "keywords": [
+    "cryptonote",
+    "thin",
+    "wallet"
+  ],
+  "author": "0xA01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flakechain/flake-web/issues"
+  },
+  "homepage": "https://github.com/flakechain/flake-web#readme",
+  "dependencies": {
+    "@material-ui/core": "^1.3.1",
+    "@material-ui/icons": "^1.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "redux": "^4.0.0",
+    "roboto-fontface": "^0.9.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
